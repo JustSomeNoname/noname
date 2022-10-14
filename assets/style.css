@@ -15,12 +15,14 @@ html, body {
   margin: 0;
   height: 100%;
 
-  background-color: #333;
+  background-color: #0f0f0f;
   overflow: hidden;
 }
 
+a { color: #393dfa; } 
+
 .profile { 
-    background-color: #2C2F33;
+    background-color: #171616;
     width: 600px;
       margin: 10% auto 50px;
       border-radius: 20px;
@@ -31,7 +33,7 @@ html, body {
   }
 
 .top-part { 
-  background-color: var(--dark);
+  background-color: #171616;
   padding: 10px;
   border-radius: 20px 20px 0 0 ;
   display: flex;
@@ -67,7 +69,7 @@ ul.badges > li {
 }
 
 .bottom-part {
-  background-color: var(--blurple);
+  background-color: #171616;
   border-radius: 0 0 20px 20px;
   padding: 10px;
   display: flex;
@@ -104,7 +106,7 @@ li > a:hover {
 }
 
 .bio a {
-    color: #c9d1d9;
+    color: #575bfa;
     text-decoration: none;
     transition: text-decoration 0.1s;
 }
@@ -117,7 +119,7 @@ li > a:hover {
 hr {
     margin: 0;
     height: 1px;
-    background-color: var(--dark);
+    background-color: #171616;
 }
 
 .projects > h1 {
@@ -127,6 +129,7 @@ hr {
 }
 
 .projects > .project-box {
+    border-radius: 16px;
     box-shadow: none;
     transition: box-shadow 0.1s;
     display: flex;
@@ -137,7 +140,7 @@ hr {
 
 .projects > .project-box:hover {
     box-shadow: 0 0 7px 3px rgba(0,0,0,0.75);
-    transition: box-shadow 0.1s;
+    transition: box-shadow 0.7s;
 }
 
 .project-box > img {

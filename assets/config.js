@@ -11,9 +11,10 @@ const config = {
     ],
 
     PROJECTS: [
-        { id: "project-1", image: "assets/img/amar.gif", link: "https://discord.com/invite/amar", name: "Amar" },
-        { id: "project-2", image: "assets/img/rocketment.gif", link: "https://discord.com/invite/rocketment", name: "Rocketment" },
-        { id: "project-3", image: "assets/img/ebio.gif", link: "https://discord.com/invite/e-bio-913922450205585439", name: "e.bio" },
+        { id: "amar", image: "assets/img/amar.gif", link: "https://discord.com/servers/amar-444141193022930944", name: "Amar" },
+        { id: "rocketment", image: "assets/img/rocketment.gif", link: "https://discord.com/invite/rocketment", name: "Rocketment" },
+        { id: "ebio", image: "assets/img/ebio.gif", link: "https://discord.com/servers/e-bio-913922450205585439", name: "e.bio" },
+        { id: "Anime & Gaming Cafe", image: "assets/img/animegamingcafe.gif", link: "https://animegamingcafe.de", name: "Anime & Gaming Cafe" },
     ],
 
     SOCIALS: [
