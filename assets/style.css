@@ -65,6 +65,12 @@ a {
 }
 
 .top-part>ul.badges {
+    width: 12%;
+    height: auto;
+    background-color: #171616;
+    border-radius: 12px;
+    text-align: center;
+    margin: auto;
 	align-self: center;
 	display: flex;
 	list-style: none;
@@ -145,6 +151,16 @@ hr {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding: 5px 5px 5px 10px;
+}
+
+.project-description {
+    display: none;
+    flex-direction: column;
+}
+
+.projects>.project-box:hover + .project-description {
+    display: flex;
+    color: white;
 }
 
 .projects>.project-box:hover {

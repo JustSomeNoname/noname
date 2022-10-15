@@ -15,7 +15,7 @@
       <div class="box profile">
          <div style="background-image: url(./assets/img/bgimg.png)" class="top-part">
             <img class="profile-picture" v-bind:src="profile_picture" alt="Profile Picture" />
-            <p style="color: #2479db;" class="name"><b>Noname / ノナメ#5221</b></p>
+            <p style="color: #393dfa;" class="name"><b><i>Noname / ノナメ#5221</i></b></p>
             <!-- <ul class="badges">
                <li v-for="badge in badges"><img v-bind:src="badge.image" v-bind:alt="badge.id" /></li>
                </ul> -->
@@ -34,6 +34,7 @@
                <a v-for="project in projects" class="project-box" v-bind:href="project.link" target="_blank" v-bind:id="project.id">
                   <img v-bind:src="project.image" v-bind:alt="project.name" />
                   <p><b>{{ project.name }}</b></p>
+                  <p class="project-description">{{ project.description }}</p>
                </a>
             </div>
          </div>
@@ -43,7 +44,7 @@
             </ul>
             <center>
                <b>
-                  <p>&copy; 2022 Noname / ノナメ#5221</p>
+                  <p style="color: #8f8f8f;">&copy; 2022 Noname / ノナメ#5221</p>
                </b>
             </center>
          </div>

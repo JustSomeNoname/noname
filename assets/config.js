@@ -19,31 +19,36 @@ const config = {
             id: "amar",
             image: "assets/img/amar.gif",
             link: "https://discord.com/servers/amar-444141193022930944",
-            name: "Amar"
+            name: "Amar",
+            description: "Test1"
         },
         {
             id: "rocketment",
             image: "assets/img/rocketment.gif",
             link: "https://discord.com/invite/rocketment",
-            name: "Rocketment"
+            name: "Rocketment",
+            description: "Test2"
         },
         {
             id: "ebio",
             image: "assets/img/ebio.gif",
             link: "https://discord.com/servers/e-bio-913922450205585439",
-            name: "e.bio"
+            name: "e.bio",
+            description: "Test3"
         },
         {
             id: "Anime & Gaming Cafe",
             image: "assets/img/animegamingcafe.gif",
             link: "https://animegamingcafe.de",
-            name: "Anime & Gaming Cafe"
+            name: "Anime & Gaming Cafe",
+            description: "Test4"
         },
         {
             id: "Reisender Collective",
             image: "assets/img/reisendercollective.png",
             link: "https://discord.com/invite/729qxEBEXF",
-            name: "Reisender Collective"
+            name: "Reisender Collective",
+            description: "Test5"
         },
     ],
 
