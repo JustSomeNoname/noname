@@ -15,6 +15,7 @@ html, body {
   margin: 0;
   height: 100%;
 
+  background-image: url(./img/bodybg.png);
   background-color: #0f0f0f;
   overflow: hidden;
 }
@@ -50,9 +51,14 @@ a { color: #393dfa; }
 
 .top-part > p.name {
     color: #ffffff;
-    font-size: 25px;
+    font-size: 22px;
+    text-align: center;
     align-self: center;
-    margin: 5px;
+    margin: auto;
+    width: 265px;
+    height: 35px;
+    background-color: #171616;
+    border-radius: 12px;
 }
 
 .top-part > ul.badges {
