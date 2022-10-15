@@ -25,6 +25,14 @@ a {
 	color: #393dfa;
 }
 
+u {
+	color: #8f8f8f;
+}
+
+u:hover {
+	color: #8f8f8f;
+}
+
 .profile {
 	background-color: #171616;
 	width: 600px;
@@ -144,7 +152,7 @@ hr {
 }
 
 .projects>.project-box {
-	border-radius: 16px;
+	border-radius: 12px;
 	box-shadow: none;
 	transition: box-shadow 0.1s;
 	display: flex;
