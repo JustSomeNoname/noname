@@ -33,7 +33,7 @@
                <h1></h1>
                <a v-for="project in projects" class="project-box" v-bind:href="project.link" target="_blank" v-bind:id="project.id">
                   <img v-bind:src="project.image" v-bind:alt="project.name" />
-                  <p><b>{{ project.name }}</b></p>
+                  <p style="color: #522af4"><b>{{ project.name }}</b></p>
                   <p class="project-description">{{ project.description }}</p>
                </a>
             </div>
