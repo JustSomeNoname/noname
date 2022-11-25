@@ -30,10 +30,10 @@ const config = {
             description: "Coming Soon"
         },
         {
-            id: "ebio",
-            image: "assets/img/ebio.gif",
-            link: "https://discord.com/servers/e-bio-913922450205585439",
-            name: "e.bio",
+            id: "Try discord.com/guidelines",
+            image: "assets/img/guidelines.png",
+            link: "https://discord.com/invite/guidelines",
+            name: "Try discord.com/guidelines",
             description: "Coming Soon"
         },
         {
