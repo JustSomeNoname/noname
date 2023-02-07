@@ -2,6 +2,8 @@
 <html lang="en">
    <head>
       <meta name="Noname / ノナメ" content=":-- ♡ --:">
+      <meta color-scheme="blue light" name="theme-color" content="#454FBF">
+      <meta itemref="author" itemprop="author" itemscope="" itemtype="http://schema.org/Person" name="author" content="Noname">
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title id="vue-managed">Noname / ノナメ</title>
@@ -15,7 +17,7 @@
       <div class="box profile">
          <div style="background-image: url(./assets/img/bgimg.png)" class="top-part">
             <img class="profile-picture" v-bind:src="profile_picture" alt="Profile Picture" />
-            <p style="color: #393dfa;" class="name"><b><i>Noname / ノナメ#5221</i></b></p>
+            <p style="color: #2433ff;" class="name"><b><i>Noname / ノナメ#5221</i></b></p>
             <!-- <ul class="badges">
                <li v-for="badge in badges"><img v-bind:src="badge.image" v-bind:alt="badge.id" /></li>
                </ul> -->
@@ -24,7 +26,7 @@
             <div class="bio">
                <center>
                   <b>
-                     <p style="color: #393dfa;" v-html="description"></p>
+                     <p style="color: #2433ff;" v-html="description"></p>
                   </b>
                </center>
             </div>
@@ -33,7 +35,7 @@
                <h1></h1>
                <a v-for="project in projects" class="project-box" v-bind:href="project.link" target="_blank" v-bind:id="project.id">
                   <img v-bind:src="project.image" v-bind:alt="project.name" />
-                  <p style="color: #522af4"><b>{{ project.name }}</b></p>
+                  <p style="color: #2433ff"><b>{{ project.name }}</b></p>
                   <p class="project-description">{{ project.description }}</p>
                </a>
             </div>
@@ -41,7 +43,7 @@
          <div class="bottom-part">
             <ul class="social">
                <li v-for="social in socials"><a v-bind:class="social.class_name" v-bind:href="social.link" target="_blank"></a></li>
-               <a href="https://github.com/JustSomeNoname"/><u /><b /><p style="color: #8f8f8f;">JustSomeNoname</p>
+               <a href="https://github.com/JustSomeNoname"/><u /><b /><p style="color: #7895ff;">JustSomeNoname</p>
             </ul>
             <center>
                <b>
