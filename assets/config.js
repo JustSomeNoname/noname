@@ -15,14 +15,14 @@ const config = {
         },
         {
             id: "amar",
-            image: "assets/img/amar.png",
+            image: "assets/img/amar.gif",
             link: "https://discord.com/servers/amar-444141193022930944",
             name: "Amar",
             description: "Coming Soon"
         },
         {
             id: "modhq",
-            image: "assets/img/modhq.png",
+            image: "assets/img/modhq.gif",
             link: "https://discord.com/invite/modhq",
             name: "Moderatoren HQ",
             description: "Coming Soon"
@@ -36,7 +36,7 @@ const config = {
         },
         {
             id: "agc",
-            image: "assets/img/animegamingcafe.png",
+            image: "assets/img/animegamingcafe.gif",
             link: "https://animegamingcafe.de",
             name: "Anime & Gaming Cafe",
             description: "Coming Soon"
