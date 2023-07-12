@@ -5,16 +5,6 @@ const config = {
 
     DESCRIPTION: '<i>he/him</i><br><br> /\\___/\\<br>꒰ ˶• ༝ - ˶꒱<br>./づ~🍨',
 
-    /*BADGES: [{
-            id: "HypeSquad Balance",
-            image: "assets/img/hypesquad_balance.png"
-        },
-        {
-            id: "Nitro Sub",
-            image: "assets/img/nitro_sub.svg"
-        },
-    ],*/
-
     PROJECTS: [
         {
             id: "diablo4",
