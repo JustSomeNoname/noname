@@ -1,7 +1,7 @@
 const config = {
 
-    USERNAME: "Noname / ノナメ#5221",
-    PICTURE: "assets/img/profile_picture.gif",
+    USERNAME: "Brian",
+    PICTURE: "assets/img/profile_picture.png",
 
     DESCRIPTION: '<i>he/him</i><br><br> /\\___/\\<br>꒰ ˶• ༝ - ˶꒱<br>./づ~🍨',
 
@@ -17,10 +17,10 @@ const config = {
 
     PROJECTS: [
         {
-            id: "Moderatoren HQ",
-            image: "assets/img/modhq.png",
-            link: "https://discord.com/invite/modhq",
-            name: "Moderatoren HQ",
+            id: "diablo4",
+            image: "assets/img/diablo4.png",
+            link: "https://discord.com/invite/diablo4",
+            name: "Sanctuary - Diablo 4 Community",
             description: "Coming Soon"
         },
         {
@@ -31,28 +31,28 @@ const config = {
             description: "Coming Soon"
         },
         {
-            id: "rocketment",
-            image: "assets/img/rocketment.png",
-            link: "https://discord.com/invite/rocketment",
-            name: "Rocketment",
+            id: "modhq",
+            image: "assets/img/modhq.png",
+            link: "https://discord.com/invite/modhq",
+            name: "Moderatoren HQ",
             description: "Coming Soon"
         },
         {
-            id: "barry's comfy café",
-            image: "assets/img/barryComfyCafe.png",
-            link: "https://discord.com/invite/bawwub",
-            name: "barry's comfy café",
+            id: "dreamycafe",
+            image: "assets/img/dreamycafe.gif",
+            link: "https://discord.com/invite/dreamycafe",
+            name: "Dreamy Café | Anime ・ Gaming",
             description: "Coming Soon"
         },
         {
-            id: "Anime & Gaming Cafe",
+            id: "agc",
             image: "assets/img/animegamingcafe.png",
             link: "https://animegamingcafe.de",
             name: "Anime & Gaming Cafe",
             description: "Coming Soon"
         },
         {
-            id: "#TeamRuby",
+            id: "teamruby",
             image: "assets/img/rubychan.png",
             link: "https://discord.com/invite/rubychan",
             name: "#TeamRuby",

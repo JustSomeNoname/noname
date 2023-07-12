@@ -61,8 +61,20 @@ u:hover {
 	text-align: center;
 	align-self: center;
 	margin: auto;
-	width: 265px;
-	height: 35px;
+	width: 130px;
+	height: 30px;
+	background-color: #171616;
+	border-radius: 12px;
+}
+
+.top-part>p.name2 {
+	color: #ffffff;
+	font-size: 22px;
+	text-align: center;
+	align-self: center;
+	margin: auto;
+	width: 100px;
+	height: 20px;
 	background-color: #171616;
 	border-radius: 12px;
 }
